@@ -1,7 +1,7 @@
 'use strict';
 
-describe('app.version module', function() {
-  beforeEach(module('app.version'));
+describe('app.module', function() {
+  beforeEach(module('app'));
 
   describe('version service', function() {
     it('should return current version', inject(function(version) {
